@@ -3,77 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ömer Başkapan - Vergi Danışmanı</title>
+    <title>Ömer Başkapan - Kişisel Web Sayfası</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #333333;
+            background-color: #f5f5f5; /* Açık gri */
+            color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #ff4500; /* Turuncu */
-            color: #ffffff;
+            background-color: #fff; /* Beyaz */
+            color: #333;
             padding: 20px;
             text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         nav {
-            background-color: #b22222; /* Kırmızı */
+            background-color: #e0e0e0; /* Açık gri ton */
             overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         nav a {
             float: left;
             display: block;
-            color: #ffffff;
+            color: #333;
             text-align: center;
             padding: 14px 20px;
             text-decoration: none;
         }
         nav a:hover {
-            background-color: #ff6347; /* Açık Turuncu */
+            background-color: #d4d4d4; /* Daha koyu gri */
         }
         section {
             padding: 20px;
         }
         footer {
-            background-color: #ff4500; /* Turuncu */
-            color: #ffffff;
+            background-color: #fff; /* Beyaz */
+            color: #333;
             text-align: center;
             padding: 10px 0;
             position: fixed;
             width: 100%;
             bottom: 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        img, video {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Kuruyemiş Eğitimi</h1>
-        <p>Lübnan</p>
+        <h1>Ömer Başkapan</h1>
+        <p>Vergi Danışmanı</p>
     </header>
     <nav>
-        <a href="#hakkinda">Fiyatlar</a>
-        <a href="#Davetli listesi">Kuruyemiş İçeriği</a>
-        <a href="#Ana Fikir">Portaxe Düğün</a>
+        <a href="#hakkinda">Hakkında</a>
+        <a href="#projeler">Projeler</a>
+        <a href="#komik-aciklamalar">Neden Müdür Olmalıyım?</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#video">Video</a>
+        <a href="#iletisim">İletişim</a>
     </nav>
     <section id="hakkinda">
-        <h2>Keriz Tokatlama Event'i</h2>
-        <p>Merhaba! Kocanızın kazandığı 3 kuruş paraya da göz mü diktiniz. O zaman sizleri lübnanda düzenlenen keriz tokatlama etkinliği olan kuruyemiş tadımına davet ediyoruz. Kuruyemiş
-Üstadı kamil güngör tarafından sağlanacak bu tadım sonrasında ise kocanızın kart bakiyesinde kalan son parayı da kaju alarak harcayabilirsiniz. 
-
-Tadıma dahil olan kuruyemiş listesi stajyerimiz olan ömer başkapan tarafından tarafınıza iletilecektir. 		</p>
+        <h2>Hakkında</h2>
+        <p>Merhaba! Ben Ömer Başkapan, vergi danışmanı olarak çalışmaktayım. Uzun yıllardır bu sektördeyim ve çeşitli projelerde yer aldım. İşimle ilgili detayları ve deneyimlerimi bu sayfada bulabilirsiniz.</p>
     </section>
-    <section id="Davetli listesi">
-        <h2>Davetli listesi</h2>
-        <p>Üzerinde çalıştığım ve tamamladığım projeler burada listelenecek.  </p>
+    <section id="projeler">
+        <h2>Projeler</h2>
+        <p>Üzerinde çalıştığım ve tamamladığım projeler burada listelenecek. Her proje için kısa açıklamalar ekleyeceğim.</p>
     </section>
-    <section id="Neden Beni Tercih Etmelisiniz">
-        <h2>Beleş Hizmet Ucuz İş Afgan</h2>
-        <p>Gözlüklü şirin samimiyetiyle verilecek hizmetten yararlanmak için bizi arayabilirsiniz</p>
+    <section id="komik-aciklamalar">
+        <h2>Neden Müdür Olmalıyım?</h2>
+        <p>Burada müdür olmam gerektiğine dair komik ve ilginç açıklamalar bulabilirsiniz. Umarım yüzünüzde bir tebessüm yaratır!</p>
+    </section>
+    <section id="galeri">
+        <h2>Galeri</h2>
+        <p>Burada fotoğraflarınızı görüntüleyebilirsiniz.</p>
+        <img src="ornek-fotograf.jpg" alt="Örnek Fotoğraf">
+    </section>
+    <section id="video">
+        <h2>Video</h2>
+        <p>Burada videonuzu izleyebilirsiniz.</p>
+        <video controls>
+            <source src="ornek-video.mp4" type="video/mp4">
+            Tarayıcınız bu videoyu desteklemiyor.
+        </video>
+    </section>
+    <section id="iletisim">
+        <h2>İletişim</h2>
+        <p>Benimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:</p>
+        <ul>
+            <li>Email: omer@example.com</li>
+            <li>Telefon: +90 123 456 7890</li>
+        </ul>
     </section>
     <footer>
-        <p>© 2024 Candaş Coşkun (32 binde)</p>
+        <p>© 2024 Ömer Başkapan</p>
     </footer>
 </body>
 </html>
